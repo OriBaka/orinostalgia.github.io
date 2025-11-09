@@ -1,0 +1,20 @@
+{
+  "anime": [
+    {
+      "name": "Lycoris Recoil",
+      "year": 2022,
+      "genre": ["Action", "Slice of Life"],
+      "rating": 9,
+      "review": "Nhân vật dễ thương, hành động thú vị, nhạc nền tuyệt vời",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Lycoris_Recoil.jpg"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Chisato Nishikigi",
+      "anime": "Lycoris Recoil",
+      "reason": "Dễ thương, năng động, thông minh",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Lycoris_Recoil.jpg"
+    }
+  ]
+}
