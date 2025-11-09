@@ -1,3 +1,14 @@
+// Hiển thị section được chọn, ẩn các section khác
+function showSection(id) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+}
+
+// Hiển thị section đầu tiên khi load
+showSection('anime');
+
+// Load dữ liệu JSON và tạo gallery
 fetch('data.json')
 .then(response => response.json())
 .then(data => {
